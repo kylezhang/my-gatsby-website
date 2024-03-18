@@ -1,0 +1,10 @@
+bin/
+_site/
+vendor/
+.DS_Store
+.bundle
+Brewfile.lock.json
+Gemfile.lock
+.jekyll-metadata
+/*.js
+node_modules
