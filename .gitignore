@@ -8,3 +8,4 @@ Gemfile.lock
 .jekyll-metadata
 /*.js
 node_modules
+.cache
