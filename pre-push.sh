@@ -20,8 +20,8 @@ git commit -m "Pushing local source changes to dev branch"
 git push origin dev  
   
 # 切换到master分支，拉取最新代码  
-git checkout master  
-git pull origin master  
+git checkout main  
+git pull origin main  
   
 # 清理public文件夹（如果存在）  
 if [ -d "public" ]; then  
@@ -39,9 +39,9 @@ fi
   
 # 将编译后的public文件夹内容添加到Git  
 git add public  
-git commit -m "Pushing compiled public folder content to master branch"  
+git commit -m "Pushing compiled public folder content to main branch"  
   
 # 将public文件夹的更改推送到master分支  
-git push origin master  
+git push origin main  
   
 echo "推送完成。"
